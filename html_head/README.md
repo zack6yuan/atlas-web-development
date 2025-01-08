@@ -7,7 +7,7 @@ A small image or icon that is associated with a partiluar website or web page.
 Refers to the <title> tag in HTML. It defines the page title, which appears on the browser tab.
 ## How to create a description in search engines?
 A short summary of the content on a specific web page. Here is the syntax.
-<meta name="description" content="insert content here">
+### <meta name="description" content="insert content here">
 ## What is meta data?
 Provides information that describes and explains other data, rather than containing the actual content itself.
 ## What is SEO?

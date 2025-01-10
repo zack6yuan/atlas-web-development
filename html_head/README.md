@@ -10,4 +10,4 @@ A short summary of the content on a specific web page. Use "name" and "content" 
 ## What is meta data?
 Provides information that describes and explains other data, rather than containing the actual content itself.
 ## What is SEO?
-It is the process of imrpoving your website's visibility in search engine results pages.
+It is the process of improving your website's visibility in search engine results pages.

@@ -4,6 +4,7 @@ body {
   color: #ffffff;
   text-align: center;
   margin: 0;
+  line-height: 1.4;
 }
 .hobbies h2 {
   font-size: 24px;
@@ -69,15 +70,25 @@ p {
 }
 
 .zack {
-  color: #ff5100
+  color: #ff5100;
+  font-size: 1em;
 }
 
-.hobbies ul li {
-  font-size: 1em
+.hobbies {
+  margin-bottom: -10px;
 }
+
 ul {
-  padding-left: ;
+  list-style-type: disc;
 }
 .pets {
   text-align: center;
+}
+
+.hobbies h1 {
+  font-size: 1em;
+}
+
+.introduction h1 {
+  float: left;
 }

@@ -4,7 +4,7 @@ body {
   color: #ffffff;
   text-align: center;
   margin: 0;
-  line-height: 1.4;
+  line-height: 1.8;
 }
 .hobbies h2 {
   font-size: 24px;
@@ -72,6 +72,7 @@ p {
 .zack {
   color: #ff5100;
   font-size: 1em;
+  
 }
 
 .hobbies {
@@ -91,4 +92,29 @@ ul {
 
 .introduction h1 {
   float: left;
+}
+
+.reasoning h1 {
+  font-size: 1em;
+  width: 95%;
+  margin-left: 21px;
+}
+
+.reasoning p {
+  position: absolute;
+  bottom: 10px;
+}
+
+.pets h1 {
+  font-size: 1em;
+}
+
+.utilization h1 {
+  font-size: 1em;
+  width: 95%;
+  margin-left: 21px;
+}
+
+.facts h1 {
+  font-size: 1em;
 }

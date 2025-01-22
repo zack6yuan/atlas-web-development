@@ -51,14 +51,12 @@ p {
   right: 15px;
 }
 .nav-logo img {
-  position: relative;
-  width: 60px;
-  right: 260px;
-  bottom: 21px;
-  height: auto;
+  position: absolute;
+  width: 70px;
+  top: -28px;
+  left: 10px;
+
 }
-.main-title {
-  font-family: Morgant;
-  font-size: xx-large;
-  color:#00a6ff
+.main-title h1 {
+  font-size: 9em;
 }

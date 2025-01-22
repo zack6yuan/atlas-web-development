@@ -2,11 +2,11 @@ body {
   font-family: 'Unbounded SemiBold', 'Montserrat', 'Arial';
   background-color: #0f0f0f;
   color: #ffffff;
-  text-align: center;
   margin: 0;
   line-height: 1.8;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .hobbies h2 {
@@ -105,13 +105,10 @@ ul {
 
 .reasoning h1 {
   font-size: 1em;
-  width: 95%;
-  margin-left: 21px;
-}
-
-.reasoning p {
-  position: absolute;
-  bottom: 10px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
 }
 
 .pets h1 {
@@ -121,7 +118,7 @@ ul {
 .utilization h1 {
   font-size: 1em;
   width: 95%;
-  margin-left: 21px;
+  margin-left: 0px;
 }
 
 .facts h1 {
@@ -167,9 +164,15 @@ ul {
   width: 100%;
 }
 
+.reasoning h1 {
+  text-align: left;
+}
+
 .reasoning-style {
   color:rgb(255, 153, 0);
   font-size: 16;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .util-style {
   color:rgb(255, 208, 0);
@@ -230,8 +233,13 @@ ul {
   color: rgb(255, 255, 255);
 }
 
+.view-gallery {
+  margin-right: 34px;
+}
+
 .return-home a {
-  color:rgb(255, 255, 255)
+  color:rgb(255, 255, 255);
+  margin-right: 34px;
 }
 
 .return-home a:hover {

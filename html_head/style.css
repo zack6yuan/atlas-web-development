@@ -1,5 +1,5 @@
 body {
-  font-family: Unbounded SemiBold, Montserrat;
+  font-family: 'Unbounded SemiBold', 'Montserrat', 'Arial';
   background-color: #0f0f0f;
   color: #ffffff;
   text-align: center;
@@ -7,6 +7,11 @@ body {
 }
 .hobbies h2 {
   font-size: 24px;
+}
+.hobbies li {
+  margin: 29px;
+  display: flex;
+  left: 20px;
 }
 nav {
   background-color: #0c0c0c;
@@ -20,7 +25,7 @@ nav a {
 }
 nav a:hover {
   transition: 0.6s;
-  color:#ff4800
+  color:#ff5100
 }
 .keywords a {
   color: rgb(255, 255, 255);
@@ -43,7 +48,7 @@ footer a {
 }
 footer a:hover {
   transition: 0.6s ease;
-  color:#ff4800
+  color:#ff5100
 }
 p {
   position: relative;
@@ -59,10 +64,14 @@ p {
 }
 .main-title h1 {
   font-size: 6em;
+  margin-bottom: -2px;
   font-family: 'Unbounded SemiBold', 'Montserrat', 'Arial';
 }
 
-.introduction h2 {
-  margin-left: auto;
-  margin-right: auto;
+.zack {
+  color: #ff5100
+}
+
+.hobbies ul li {
+  font-size: 1em
 }

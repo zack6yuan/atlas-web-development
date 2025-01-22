@@ -1,5 +1,5 @@
 body {
-  font-family: Barlow, Montserrat;
+  font-family: Unbounded SemiBold, Montserrat;
   background-color: #0f0f0f;
   color: #ffffff;
   text-align: center;
@@ -9,7 +9,7 @@ body {
   font-size: 24px;
 }
 nav {
-  background-color: #010101;
+  background-color: #0c0c0c;
   width: 100%;
   height: 40px;
   top: 0;
@@ -29,7 +29,7 @@ nav a:hover {
   float: right;
 }
 footer {
-  background-color: #000000;
+  background-color: #0c0c0c;
   margin-top: 410px;
   height: 90px;
   text-align: center;
@@ -58,5 +58,11 @@ p {
 
 }
 .main-title h1 {
-  font-size: 9em;
+  font-size: 6em;
+  font-family: 'Unbounded SemiBold', 'Montserrat', 'Arial';
+}
+
+.introduction h2 {
+  margin-left: auto;
+  margin-right: auto;
 }

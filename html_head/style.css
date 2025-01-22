@@ -1,5 +1,5 @@
 body {
-  font-family: Helvetica Neue;
+  font-family: Barlow, Montserrat;
   background-color: #111828;
   color: #ffbb00;
   text-align: center;
@@ -19,13 +19,13 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-  transition: 0.3s;
+  transition: 0.6s;
   color:#ffbb00
 }
 .keywords a {
   color: rgb(255, 255, 255);
   margin-right: 30px; 
-  line-height: 40px;
+  line-height: 30px;
   float: right;
 }
 footer {
@@ -42,11 +42,18 @@ footer a {
   top: -10px;
 }
 footer a:hover {
-  transition: 0.3s;
+  transition: 0.6s;
   color:#ffbb00
 }
 p {
   position: relative;
   top: 60px;
   right: 15px;
+}
+.nav-logo img {
+  position: relative;
+  width: 60px;
+  right: 260px;
+  bottom: 21px;
+  height: auto;
 }

@@ -122,3 +122,7 @@ ul {
 .facts h1 {
   font-size: 1em;
 }
+
+.gallery-photos img {
+  zoom: 5%;
+}

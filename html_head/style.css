@@ -176,7 +176,9 @@ ul {
 }
 .util-style {
   color:rgb(255, 208, 0);
-  font-size: 16
+  font-size: 16;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .facts-style {

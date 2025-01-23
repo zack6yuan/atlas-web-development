@@ -153,6 +153,7 @@ ul {
   display: flex;
   justify-content: center;
   margin: 10;
+  flex-wrap: wrap;
 }
 .gallery img {
   margin: 10px;
@@ -160,7 +161,7 @@ ul {
 
 .gallery-footer {
   position: absolute;
-  bottom: 0px;
+  top: 1300px;
   width: 100%;
 }
 
@@ -247,9 +248,4 @@ ul {
 .return-home a:hover {
   color: rgb(255, 81, 0);
   transition: 0.6s ease;
-}
-
-.instagram-icon img {
-  position: absolute;
-  height: 20px;
 }

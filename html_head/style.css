@@ -165,7 +165,7 @@ ul {
 }
 
 .reasoning h1 {
-  text-align: left;
+  text-align: center;
 }
 
 .reasoning-style {
@@ -247,4 +247,9 @@ ul {
 .return-home a:hover {
   color: rgb(255, 81, 0);
   transition: 0.6s ease;
+}
+
+.instagram-icon img {
+  position: absolute;
+  height: 20px;
 }

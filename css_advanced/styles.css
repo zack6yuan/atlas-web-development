@@ -39,7 +39,7 @@ header a img {
 }
 
 .banner p {
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-weight: 700;
 }
@@ -60,4 +60,26 @@ header a img {
 .banner button:hover {
   background-color: #a45fd8;
   transition: 0.3s ease;
+}
+
+.slogan h2 {
+  color: white;
+  text-align: center;
+  font-size: 32px;
+}
+
+.learn {
+  color: #C271FF;
+}
+
+.avatars {
+  color: white;
+  text-align: center;
+  display: flex;
+  padding: 100px;
+  justify-content: space-evenly;
+}
+
+.avatars p {
+  font-style: italic;
 }

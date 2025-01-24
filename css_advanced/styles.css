@@ -5,19 +5,59 @@ body {
   padding: 0;
 }
 
+nav {
+  float: right;
+  margin-top: 20px;
+}
 nav a {
   text-decoration: none;
-  float: right;
-  padding: 15px;
-  margin-right: 9px;
+  padding: 5px;
+  margin-right: 40px;
+  font-weight: 700px;
+  font-size: 12px;
+  color: white;
 }
 
 header {
   background-image: url('images/background.png');
-  background-position: center center;
-  height: 110vh;
+  background-position: center;
+  background-size: 90%;
+  height: 137vh;
 }
 
 header a img {
-  margin-left: 20px;
+  margin-top: 30px;
+  margin-left: 110px;
+}
+
+.banner h1 {
+  color: rgb(255, 255, 255);
+  font-size: 120px;
+  font-weight: 700;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.banner p {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+
+.banner button {
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #C271FF;
+  border: none;
+  color: white;
+  border-radius: 100px;
+  padding: 10px;
+  width: 160px;
+  box-shadow: 10px;
+}
+
+.banner button:hover {
+  background-color: #a45fd8;
+  transition: 0.3s ease;
 }

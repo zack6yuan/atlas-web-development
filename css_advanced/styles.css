@@ -1,5 +1,8 @@
 body {
   font-family: Source Sans Pro;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
@@ -11,5 +14,10 @@ nav a {
 
 header {
   background-image: url('images/background.png');
-  
+  background-position: center center;
+  height: 110vh;
+}
+
+header a img {
+  margin-left: 20px;
 }

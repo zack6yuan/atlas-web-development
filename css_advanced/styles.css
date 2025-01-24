@@ -83,3 +83,22 @@ header a img {
 .avatars p {
   font-style: italic;
 }
+
+.quote {
+  background-color:#C271FF;
+}
+
+.quote img {
+  margin: 100px 100px 10px 380px;
+}
+
+.blockquote {
+  font-family: Source Sans Pro;
+  color: white;
+  float: right;
+}
+
+.blockquote p {
+  font-weight: 700;
+  font-style: italic;
+}

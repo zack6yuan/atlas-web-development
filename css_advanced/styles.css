@@ -44,17 +44,17 @@ header a img {
   font-weight: 700;
 }
 
-.banner button {
+.button-style {
   font-family: Source Sans Pro;
-  font-size: 14px;
-  font-weight: 600;
   background-color: #C271FF;
   border: none;
-  color: white;
-  border-radius: 100px;
-  padding: 10px;
   width: 160px;
+  padding: 10px;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
   box-shadow: 10px;
+  border-radius: 100px;
 }
 
 .banner button:hover {
@@ -89,7 +89,7 @@ header a img {
 }
 
 .quote img {
-  margin: 100px 100px 10px 380px;
+  margin: 100px 100px 100px 380px;
 }
 
 .blockquote {
@@ -101,4 +101,12 @@ header a img {
 .blockquote p {
   font-weight: 700;
   font-style: italic;
+}
+
+.tutorials-header img {
+  display: flex;
+}
+
+.tutorials-header h1 {
+  text-align: center;
 }

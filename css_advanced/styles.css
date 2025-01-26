@@ -48,7 +48,7 @@ header a img {
   font-family: Source Sans Pro;
   background-color: #C271FF;
   border: none;
-  width: 160px;
+  width: 150px;
   padding: 10px;
   color: white;
   font-size: 14px;
@@ -138,3 +138,31 @@ header a img {
   height: 30px;
 }
 
+.membership {
+  background-color: rgba(7, 22, 41, 1);
+  display: flex;
+  justify-content: center;
+}
+
+.membership h2 {
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.membership p {
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.membership h1 {
+  color: white;
+  font-weight: 300;
+  text-align: center;
+}
+
+.free {
+  color: rgba(194, 113, 255, 1);
+  font-weight: 700;
+}

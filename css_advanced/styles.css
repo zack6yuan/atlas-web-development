@@ -103,10 +103,38 @@ header a img {
   font-style: italic;
 }
 
-.tutorials-header img {
-  display: flex;
-}
-
 .tutorials-header h1 {
   text-align: center;
 }
+
+.videos {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.videos h2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.videos p {
+  color: rgba(7, 22, 41, 0.5);
+}
+
+.videos h3 {
+  color: rgba(194, 113, 255, 1);
+  font-size: 14px;
+  margin-left: 40px;
+  margin-top: -28px;
+}
+
+.time p {
+  color: rgba(194, 113, 255, 1);
+  font-size: 14px;
+}
+
+.phillip-pfp img {
+  width: 30px;
+  height: 30px;
+}
+

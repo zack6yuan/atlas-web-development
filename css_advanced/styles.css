@@ -1,9 +1,5 @@
-@font-face {
-  font-family: 'Source Sans Pro Bold, sans-serif';
-  src: url('Users/Admin/Downloads/source-sans-pro.bold.ttf');
-}
-
 body {
+  font-family: 'Source Sans Pro Regular';
   width: 100%;
   margin: 0;
   padding: 0;
@@ -43,11 +39,30 @@ header a img {
   text-align: center;
 }
 
-.banner p {
+.smile {
   color: rgb(255, 255, 255);
   text-align: center;
+  margin-right: 200px;
+  margin-top: -100px;
   font-weight: 700;
 }
+
+.grin {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: -36px;
+  font-weight: 700;
+}
+
+.laugh {
+  color:rgb(255, 255, 255);
+  text-align: center;
+  margin-left: 200px;
+  margin-top: -36px;
+  font-weight: 700;
+}
+
+
 
 .button-style {
   font-family: Source Sans Pro;
@@ -58,8 +73,13 @@ header a img {
   color: white;
   font-size: 14px;
   font-weight: 600;
-  box-shadow: 10px;
+  box-shadow: 20px;
   border-radius: 100px;
+}
+
+.banner button {
+  margin: 0 auto;
+  display: block;
 }
 
 .banner button:hover {

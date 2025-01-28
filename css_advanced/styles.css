@@ -78,7 +78,7 @@ header a img {
 }
 
 .banner button {
-  margin: 55px auto;
+  margin: 40px auto;
   width: 162px;
   height: 44px;
   display: block;
@@ -90,11 +90,11 @@ header a img {
 }
 
 .slogan h2 {
-  color: white;
+  color: rgb(255, 255, 255);
   text-align: center;
   font-size: 32px;
   font-weight: 300;
-  margin-top: 100px;
+  margin-top: 200px;
 }
 
 .learn {
@@ -107,6 +107,7 @@ header a img {
   text-align: center;
   display: flex;
   padding: 100px;
+  margin-top: 200px;
   justify-content: space-evenly;
 }
 

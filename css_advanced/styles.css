@@ -1,6 +1,5 @@
 body {
   font-family: 'Source Sans Pro';
-  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -68,6 +67,7 @@ header a img {
   font-family: Source Sans Pro;
   background-color: #C271FF;
   border: none;
+  align-items: center;
   width: 150px;
   padding: 10px;
   color: white;
@@ -75,6 +75,31 @@ header a img {
   font-weight: 600;
   box-shadow: 20px;
   border-radius: 100px;
+}
+
+.free-button {
+  font-family: Source Sans Pro;
+  background-color: #C271FF;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  box-shadow: 20px;
+  border-radius: 100px;
+  width: 162px;
+  height: 44px;
+  color: white;
+}
+
+.membership button {
+  margin: 40px auto;
+  width: 162px;
+  height: 44px;
+  display: block;
+}
+
+.membership button:hover {
+  background-color: #854eaf;
+  transition: 0.3s ease;
 }
 
 .banner button {
@@ -85,7 +110,7 @@ header a img {
 }
 
 .banner button:hover {
-  background-color: #a45fd8;
+  background-color: #854eaf;
   transition: 0.3s ease;
 }
 
@@ -143,11 +168,17 @@ header a img {
 
 .tutorials-header h1 {
   text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+  margin: 80px 0px 80px 0px;
 }
 
 .videos {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  /* removing whitespace (font-size)*/
+  font-size: 0;
+  gap: 30px;
 }
 
 .videos h2 {
@@ -163,7 +194,7 @@ header a img {
   color: rgba(194, 113, 255, 1);
   font-size: 14px;
   margin-left: 40px;
-  margin-top: -28px;
+  margin-top: -25px;
 }
 
 .time p {
@@ -179,7 +210,10 @@ header a img {
 .membership {
   background-color: rgba(7, 22, 41, 1);
   display: flex;
-  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  height: 502px;
+  display: grid;
 }
 
 .membership h2 {
@@ -195,14 +229,17 @@ header a img {
 }
 
 .membership h1 {
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: 300;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 32px;
 }
 
 .free {
   color: rgba(194, 113, 255, 1);
   font-weight: 700;
+  margin-right: 5px;
 }
 
 .person-name {
@@ -214,4 +251,24 @@ header a img {
   font-weight: 300;
   margin-left: 30.2em;
   display: flex;
+}
+
+.smiles {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+}
+
+.faq h1 {
+  font-size: 60px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.item h2 {
+  font-size: 16px;
+  font-weight: 700;
 }

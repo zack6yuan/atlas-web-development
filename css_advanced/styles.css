@@ -116,6 +116,7 @@ header a img {
 
 .quote {
   background-color:#C271FF;
+  height: 380px;
 }
 
 .quote img {
@@ -128,8 +129,11 @@ header a img {
   font-size: 22px;
 }
 
-.blockquote blockquote {
-  margin-bottom: 100px;
+.quote .blockquote blockquote {
+  text-align: center;
+  position: relative;
+  top: -430px;
+  left: 160px;
 }
 
 .blockquote p {

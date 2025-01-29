@@ -1,5 +1,5 @@
 body {
-  font-family: 'Source Sans Pro Regular';
+  font-family: 'Source Sans Pro';
   width: 100%;
   margin: 0;
   padding: 0;
@@ -22,8 +22,8 @@ nav a {
 header {
   background-image: url('images/background.png');
   background-position: center;
-  background-size: 100%;
-  height: 150vh;
+  background-size: 90%;
+  height: 137vh;
 }
 
 header a img {
@@ -107,7 +107,6 @@ header a img {
   text-align: center;
   display: flex;
   padding: 100px;
-  margin-top: 200px;
   justify-content: space-evenly;
 }
 
@@ -120,13 +119,17 @@ header a img {
 }
 
 .quote img {
-  margin: 100px 100px 100px 380px;
+  margin: 100px 100px 250px 350px;
 }
 
 .blockquote {
-  font-family: Source Sans Pro;
   color: white;
-  float: right;
+  text-align: center;
+  font-size: 22px;
+}
+
+.blockquote blockquote {
+  margin-bottom: 100px;
 }
 
 .blockquote p {
@@ -196,4 +199,15 @@ header a img {
 .free {
   color: rgba(194, 113, 255, 1);
   font-weight: 700;
+}
+
+.person-name {
+  display: flex;
+  margin-left: 30.2em;
+}
+
+.title {
+  font-weight: 300;
+  margin-left: 30.2em;
+  display: flex;
 }

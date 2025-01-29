@@ -266,9 +266,30 @@ header a img {
   display: flex;
   justify-content: center;
   margin-top: 80px;
+  line-height: 75.42px;
+}
+
+.item {
+  margin: 80px;
 }
 
 .item h2 {
   font-size: 16px;
   font-weight: 700;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-top: -80px;
+}
+
+.item p {
+  line-height: 24px;
+  color: rgba(7, 22, 41, 0.5);
+}
+
+footer {
+  background-color:rgba(7, 22, 41, 1);
+  height: 249px;
 }

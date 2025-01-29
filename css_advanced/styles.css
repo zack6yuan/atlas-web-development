@@ -9,6 +9,7 @@ nav {
   margin-right: 100px;
   margin-top: 30px;
 }
+
 nav a {
   text-decoration: none;
   padding: 5px;
@@ -64,10 +65,7 @@ header a img {
 
 
 .button-style {
-  font-family: Source Sans Pro;
   background-color: #C271FF;
-  border: none;
-  align-items: center;
   width: 150px;
   padding: 10px;
   color: white;
@@ -292,4 +290,29 @@ header a img {
 footer {
   background-color:rgba(7, 22, 41, 1);
   height: 249px;
+}
+
+.footer-logo {
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 110px;
+}
+
+.social-icons {
+  text-align: right;
+  margin-right: 200px;
+}
+
+.social-icons img {
+  margin: 10px;
+  margin-top: -30px;
+}
+
+.signature {
+  font-size: 12px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: rgb(255, 255, 255)
 }

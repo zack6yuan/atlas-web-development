@@ -2,6 +2,7 @@ body {
   font-family: 'Source Sans Pro';
   margin: 0;
   padding: 0;
+  width: 1864px;
 }
 
 nav {
@@ -139,29 +140,14 @@ header a img {
 
 .quote {
   background-color:#C271FF;
-  height: 380px;
+  height: 392px;
+  display: flex;
+  align-items: center;
+  color: white;
 }
 
 .quote img {
-  margin: 100px 100px 250px 350px;
-}
-
-.blockquote {
-  color: white;
-  text-align: center;
-  font-size: 22px;
-}
-
-.quote .blockquote blockquote {
-  text-align: center;
-  position: relative;
-  top: -430px;
-  left: 160px;
-}
-
-.blockquote p {
-  font-weight: 700;
-  font-style: italic;
+  margin: 240px 100px 250px 350px;
 }
 
 .tutorials-header h1 {
@@ -170,6 +156,7 @@ header a img {
   font-size: 32px;
   margin: 80px 0px 80px 0px;
 }
+
 
 .videos {
   display: flex;
@@ -186,6 +173,7 @@ header a img {
 
 .videos p {
   color: rgba(7, 22, 41, 0.5);
+  font-size: 14px;
 }
 
 .videos h3 {
@@ -195,9 +183,19 @@ header a img {
   margin-top: -25px;
 }
 
+.time {
+  align-items: center;
+  display: flex;
+}
+
+.time img {
+  margin-bottom: 40px;
+  padding: 2px;
+}
+
 .time p {
   color: rgba(194, 113, 255, 1);
-  font-size: 14px;
+  margin-left: 110px;
 }
 
 .phillip-pfp img {
@@ -315,4 +313,9 @@ footer {
   justify-content: center;
   margin-top: 10px;
   color: rgb(255, 255, 255)
+}
+
+.desc {
+  font-size: 22px;
+  margin-bottom: 100px;
 }

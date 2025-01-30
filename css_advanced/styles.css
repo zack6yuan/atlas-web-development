@@ -333,5 +333,5 @@ footer {
 .p1 {
   font-weight: 700;
   font-style: italic;
-  display: flexbox;
+  display: flex;
 }

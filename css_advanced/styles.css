@@ -32,38 +32,38 @@ header a img {
 }
 
 .banner h1 {
-  color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 200px;
   font-size: 120px;
   font-weight: 700;
+  color: #ffffff;
 }
 
 .smile { /* TODO: compress smile, grin, and laugh into one class */
-  color: rgb(255, 255, 255);
   margin-right: 200px;
   margin-top: -100px;
   text-align: center;
   font-weight: 700;
+  color: #ffffff;
 }
 
 .grin {
-  color: rgb(255, 255, 255);
   text-align: center;
   margin-top: -36px;
   font-weight: 700;
+  color: #ffffff;
 }
 
 .laugh {
-  color:rgb(255, 255, 255);
   text-align: center;
   margin-left: 200px;
   margin-top: -36px;
   font-weight: 700;
+  color:#ffffff;
 }
 
 .button-style {
-  background-color: #C271FF;
+  background-color: #c271ff;
   border-radius: 100px;
   font-weight: 600;
   color: #ffffff;
@@ -111,10 +111,10 @@ header a img {
 }
 
 .slogan h2 {
-  color: rgb(255, 255, 255);
   text-align: center;
   margin-top: 200px;
   font-weight: 300;
+  color: #ffffff;
   font-size: 32px;
 }
 
@@ -145,6 +145,14 @@ header a img {
 
 .quote img { /* fix these margins */
   margin: 240px 100px 250px 350px;
+}
+
+.quote blockquote {
+  margin-bottom: 100px;
+  font-size: 22px;
+}
+
+.quote .quote-text p {
 }
 
 .tutorials-header h1 {
@@ -186,8 +194,8 @@ header a img {
 }
 
 .time p {
-  color: rgba(194, 113, 255, 1);
   margin-left: 110px;
+  color: #c271ff;
 }
 
 .phillip-pfp img {
@@ -196,7 +204,7 @@ header a img {
 }
 
 .membership {
-  background-color: rgba(7, 22, 41, 1);
+  background-color: #071629;
   align-items: center;
   margin-top: 80px;
   height: 502px;
@@ -215,17 +223,17 @@ header a img {
 }
 
 .membership h1 {
-  color: rgb(255, 255, 255);
   justify-content: center;
   font-weight: 300;
+  color: #ffffff;
   font-size: 32px;
   display: flex;
 }
 
 .free {
-  color: rgba(194, 113, 255, 1);
   margin-right: 5px;
   font-weight: 700;
+  color: #c271ff;
 }
 
 .person-name {
@@ -305,11 +313,6 @@ footer {
   display: flex;
 }
 
-.desc {
-  margin-bottom: 100px;
-  font-size: 22px;
-}
-
 .info {
   flex-direction: column;
   line-height: 1px;
@@ -318,7 +321,7 @@ footer {
 
 .no-wrap {
   white-space: nowrap;
-  text-align: left;
+  text-align: left;                
   margin-left: 0;
 }
 

@@ -162,28 +162,6 @@ header a img {
   font-size: 32px;
 }
 
-.videos {
-  justify-content: center;
-  display: flex;
-}
-
-.videos h2 {
-  font-weight: 700;
-  font-size: 16px;
-}
-
-.videos p {
-  color: #07162980;
-  font-size: 14px;
-}
-
-.videos h3 {
-  margin-left: 40px;
-  margin-top: -25px;
-  color: #c271ff;
-  font-size: 14px;
-}
-
 .time {
   align-items: center;
   display: flex;
@@ -201,6 +179,12 @@ header a img {
 .phillip-pfp img {
   height: 30px;
   width: 30px;
+}
+
+.videos {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
 }
 
 .membership {

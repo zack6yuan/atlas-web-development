@@ -1,23 +1,22 @@
 body {
   font-family: 'Source Sans Pro';
-  margin: 0;
   padding: 0;
-  width: 1864px;
+  margin: 0;
 }
 
 nav {
-  float: right;
   margin-right: 100px;
   margin-top: 30px;
+  float: right;
 }
 
 nav a {
   text-decoration: none;
-  padding: 5px;
   margin-right: 40px;
+  color: #ffffff;
   font-weight: 700;
   font-size: 12px;
-  color: white;
+  padding: 5px;
 }
 
 header {
@@ -28,23 +27,23 @@ header {
 }
 
 header a img {
-  margin-top: 30px;
   margin-left: 100px;
+  margin-top: 30px;
 }
 
 .banner h1 {
   color: rgb(255, 255, 255);
+  text-align: center;
+  margin-top: 200px;
   font-size: 120px;
   font-weight: 700;
-  margin-top: 200px;
-  text-align: center;
 }
 
-.smile {
+.smile { /* TODO: compress smile, grin, and laugh into one class */
   color: rgb(255, 255, 255);
-  text-align: center;
   margin-right: 200px;
   margin-top: -100px;
+  text-align: center;
   font-weight: 700;
 }
 
@@ -63,37 +62,35 @@ header a img {
   font-weight: 700;
 }
 
-
-
 .button-style {
   background-color: #C271FF;
-  width: 150px;
-  padding: 10px;
-  color: white;
-  font-size: 14px;
-  font-weight: 600;
-  box-shadow: 20px;
   border-radius: 100px;
+  font-weight: 600;
+  color: #ffffff;
+  box-shadow: 20px;
+  font-size: 14px;
+  padding: 10px;
+  width: 150px;
 }
 
 .free-button {
   font-family: Source Sans Pro;
   background-color: #C271FF;
-  border: none;
-  font-size: 14px;
+  border-radius: 100px;
   font-weight: 600;
   box-shadow: 20px;
-  border-radius: 100px;
+  color: #ffffff;
+  font-size: 14px;
+  border: none;
   width: 162px;
   height: 44px;
-  color: white;
 }
 
 .membership button {
   margin: 40px auto;
+  display: block;
   width: 162px;
   height: 44px;
-  display: block;
 }
 
 .membership button:hover {
@@ -103,9 +100,9 @@ header a img {
 
 .banner button {
   margin: 40px auto;
+  display: block;
   width: 162px;
   height: 44px;
-  display: block;
 }
 
 .banner button:hover {
@@ -116,9 +113,9 @@ header a img {
 .slogan h2 {
   color: rgb(255, 255, 255);
   text-align: center;
-  font-size: 32px;
-  font-weight: 300;
   margin-top: 200px;
+  font-weight: 300;
+  font-size: 32px;
 }
 
 .learn {
@@ -127,11 +124,11 @@ header a img {
 }
 
 .avatars {
-  color: white;
-  text-align: center;
-  display: flex;
-  padding: 100px;
   justify-content: space-evenly;
+  text-align: center;
+  padding: 100px;
+  color: white;
+  display: flex;
 }
 
 .avatars p {
@@ -140,46 +137,43 @@ header a img {
 
 .quote {
   background-color:#C271FF;
+  align-items: center;
+  color: #ffffff;
   height: 392px;
   display: flex;
-  align-items: center;
-  color: white;
 }
 
-.quote img {
+.quote img { /* fix these margins */
   margin: 240px 100px 250px 350px;
 }
 
 .tutorials-header h1 {
+  margin: 80px 0px 80px 0px;
   text-align: center;
   font-weight: 300;
   font-size: 32px;
-  margin: 80px 0px 80px 0px;
 }
 
 .videos {
-  display: flex;
   justify-content: center;
-  /* removing whitespace (font-size)*/
-  font-size: 0;
-  gap: 30px;
+  display: flex;
 }
 
 .videos h2 {
-  font-size: 16px;
   font-weight: 700;
+  font-size: 16px;
 }
 
 .videos p {
-  color: rgba(7, 22, 41, 0.5);
+  color: #07162980;
   font-size: 14px;
 }
 
 .videos h3 {
-  color: rgba(194, 113, 255, 1);
-  font-size: 14px;
   margin-left: 40px;
   margin-top: -25px;
+  color: #c271ff;
+  font-size: 14px;
 }
 
 .time {
@@ -197,13 +191,12 @@ header a img {
 }
 
 .phillip-pfp img {
-  width: 30px;
   height: 30px;
+  width: 30px;
 }
 
 .membership {
   background-color: rgba(7, 22, 41, 1);
-  display: flex;
   align-items: center;
   margin-top: 80px;
   height: 502px;
@@ -211,56 +204,55 @@ header a img {
 }
 
 .membership h2 {
-  color: white;
-  font-size: 18px;
   font-weight: 600;
+  font-size: 18px;
+  color: white;
 }
 
 .membership p {
-  color: white;
   font-size: 14px;
-  font-weight: 400;
+  color: white;
 }
 
 .membership h1 {
   color: rgb(255, 255, 255);
-  font-weight: 300;
-  display: flex;
   justify-content: center;
+  font-weight: 300;
   font-size: 32px;
+  display: flex;
 }
 
 .free {
   color: rgba(194, 113, 255, 1);
-  font-weight: 700;
   margin-right: 5px;
+  font-weight: 700;
 }
 
 .person-name {
-  display: flex;
   margin-left: 30.2em;
+  display: flex;
 }
 
 .title {
-  font-weight: 300;
   margin-left: 30.2em;
+  font-weight: 300;
   display: flex;
 }
 
 .smiles {
-  display: flex;
   justify-content: center;
-  gap: 100px;
   text-align: center;
+  display: flex;
+  gap: 100px;
 }
 
 .faq h1 {
-  font-size: 60px;
-  font-weight: 300;
-  display: flex;
   justify-content: center;
-  margin-top: 80px;
   line-height: 75.42px;
+  font-weight: 300;
+  margin-top: 80px;
+  font-size: 60px;
+  display: flex;
 }
 
 .item {
@@ -268,60 +260,60 @@ header a img {
 }
 
 .item h2 {
-  font-size: 16px;
   font-weight: 700;
+  font-size: 16px;
 }
 
 .row {
-  display: flex;
   justify-content: center;
   margin-top: -80px;
+  display: flex;
 }
 
 .item p {
+  color: #07162980;
   line-height: 24px;
-  color: rgba(7, 22, 41, 0.5);
 }
 
 footer {
-  background-color:rgba(7, 22, 41, 1);
+  background-color:#071629;
   height: 249px;
 }
 
 .footer-logo {
-  text-align: left;
   margin-left: 200px;
   margin-top: 110px;
+  text-align: left;
 }
 
 .social-icons {
-  text-align: right;
   margin-right: 200px;
+  text-align: right;
 }
 
 .social-icons img {
-  margin: 10px;
   margin-top: -30px;
+  margin: 10px;
 }
 
 .copyright {
-  font-size: 12px;
-  font-weight: 400;
-  display: flex;
   justify-content: center;
   margin-top: 10px;
-  color: rgb(255, 255, 255)
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  display: flex;
 }
 
 .desc {
-  font-size: 22px;
   margin-bottom: 100px;
+  font-size: 22px;
 }
 
 .info {
-  display: flex;
   flex-direction: column;
   line-height: 1px;
+  display: flex;
 }
 
 .no-wrap {
@@ -331,7 +323,7 @@ footer {
 }
 
 .p1 {
-  font-weight: 700;
   font-style: italic;
+  font-weight: 700;
   display: flex;
 }

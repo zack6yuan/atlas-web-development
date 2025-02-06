@@ -196,7 +196,8 @@ header a img {
 }
 
 .time p {
-  margin-left: 110px;
+  margin-left: 200px;
+  margin-top: -24px;
   color: #c271ff;
 }
 
@@ -354,9 +355,17 @@ footer {
   height: 30px;
 }
 
+.author-information {
+  display: flex;
+}
+
 .author-information p {
   font-size: 14px;
   color: #C271FF;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  margin-right: 50px;
+  line-height: 5px;
 }
 
 .info p {
@@ -369,6 +378,34 @@ footer {
   font-size: 16px;
 }
 
-.play-button img {
+.play-button {
   position: absolute;
+}
+
+.stars img {
+  padding: 2px;
+}
+
+.play1 {
+  position: absolute;
+  left: 470px;
+  bottom: -1060px;
+}
+
+.play2 {
+  position: absolute;
+  left: 760px;
+  bottom: -1060px;
+}
+
+.play3 {
+  position: absolute;
+  right: 760px;
+  bottom: -1060px;
+}
+
+.play4 {
+  position: absolute;
+  right: 470px;
+  bottom: -1060px;
 }
